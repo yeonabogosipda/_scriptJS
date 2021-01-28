@@ -1,4 +1,5 @@
-<script> $(document).ready(function(){ 
+<script> 
+  $(document).ready(function(){ 
   //css 멀티 속성 변화 $('p.para1').css({ 
     color: 'red', background: 'yellowgreen', 
     'font-size' : '1.5em', border : '3px solid black' 
