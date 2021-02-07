@@ -17,7 +17,6 @@ function init() {
 
 
 function init() {
-
 	localStorage.clear();
 
 	var val = localStorage.getItem("A") + " " +
