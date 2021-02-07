@@ -1,3 +1,4 @@
+<script>
 function init() {
 	localStorage.setItem("A", "A입니다."); 
 	localStorage.setItem("B", "B입니다."); 
@@ -14,6 +15,7 @@ function init() {
 	document.querySelector("#result").innerHTML = val;
 }
 
+
 function init() {
 
 	localStorage.clear();
@@ -26,3 +28,4 @@ function init() {
 
 	document.querySelector("#result").innerHTML = val;
 }
+</script>
