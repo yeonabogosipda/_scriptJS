@@ -1,4 +1,4 @@
-#Usage
+// Usage
 const noteManager = new NoteManager({
   el: document.getElementById('your_wrapper_element_id'),
   notes: [
@@ -11,7 +11,7 @@ const noteManager = new NoteManager({
 });
 
 
-#Methods
+// Methods
 // Add the note at the bottom
 noteManager.addNote({
   title: '',
@@ -32,7 +32,7 @@ noteManager.notes = [...];
 noteManager.renderNotes();
 
 
-#Events
+// Events
 noteManager.onNoteAdd = (note) => {
   console.log("Note added ", note);
 };
