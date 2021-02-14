@@ -44,3 +44,27 @@ function move() {
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>In this example, the setInterval() method executes the setColor() function once every 300 milliseconds, which will toggle between two background colors.</p>
+
+<button onclick="stopColor()">Stop Toggling</button>
+
+<script>
+var myVar = setInterval(setColor, 300);
+ 
+function setColor() {
+  var x = document.body;
+  x.style.backgroundColor = x.style.backgroundColor == "yellow" ? "pink" : "yellow";
+}
+ 
+function stopColor() {
+  clearInterval(myVar);
+}
+</script>
+
+</body>
+</html>
