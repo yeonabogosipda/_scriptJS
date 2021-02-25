@@ -26,3 +26,20 @@ console.log(kim.eyes); // => 2
 // 프로토타입을 깊게 파보면 엄청나게 복잡하지만 개발자가 사용하는 부분만 본다면 이게 거의 전부입니다. 
 // 하지만 개발자는 사용법만 알고있는게 아니라 언제나 왜? 를 생각해야합니다.
 
+
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.doSomething = function (callback) {
+  if (typeof callback == 'function') {
+    callback.call(this);
+  }
+};
+
+function foo() {
+  console.log(this.name);
+}
+
+var p = new Person('Lee');
+p.doSomething(foo);  // 'Lee'
