@@ -8,7 +8,7 @@ say("John");
 
 function Employee(){
   //public
-  this.dsplayEmployeeDtls = function(){
+  this.displayEmployeeDtls = function(){
     alert("Employee Details");
   }
   //private
