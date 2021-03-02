@@ -2,8 +2,8 @@ $ git rm -r --cached .
 $ git add .
 $ git commit -m "fixed untracked files"
 
-*.html   
-*.js   
+# *.html   
+# *.js   
 
 ./ajax.js   
 ./chatbot.js   
