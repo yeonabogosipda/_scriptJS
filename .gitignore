@@ -22,3 +22,6 @@ js/drag.js
 js/chatbot.js
 js/arrow.js
 js/ajax.js
+js/localstorage.js
+js/setInterval.js
+js/fetchAPI.js
