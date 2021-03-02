@@ -5,20 +5,20 @@ $ git commit -m "fixed untracked files"
 # *.html   
 # *.js   
 
-./ajax.js   
-./chatbot.js   
-./drag.js   
-./fadescroll.js   
-./fetchAPI.js   
-./hash.html   
-./ip.html   
-./localstorage.js   
-./mac.html   
-./method.js   
-./note.js   
-./prototype.js   
-./setInterval.js   
-./stickyNote.js   
-./sudoku.js   
-./test.html   
-./this.js   
+./ajax.js
+./chatbot.js
+./drag.js
+./fadescroll.js
+./fetchAPI.js
+./hash.html
+./ip.html
+./localstorage.js
+./mac.html
+./method.js
+./note.js
+./prototype.js
+./setInterval.js
+./stickyNote.js
+./sudoku.js
+./test.html
+./this.js
