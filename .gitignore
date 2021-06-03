@@ -1,34 +1,35 @@
 $ git rm -r --cached .
 $ git add .
 $ git commit -m "fixed untracked files"
+$ git push --force origin deadbeef:master
 
 # *.html   
 # *.js   
 
-html/hash.html
-html/ip.html
-html/mac.html
-html/test.html
+# html/hash.html
+# html/ip.html
+# html/mac.html
+# html/test.html
 
-js/this.js
-js/sudoku.js
-js/stickyNote.js
-js/prototype.js
-js/note.js
-js/method.js
-js/media.js
-js/fadescroll.js
-js/drag.js
-js/chatbot.js
-js/arrow.js
-js/ajax.js
-js/localstorage.js
-js/setInterval.js
-js/fetchAPI.js
+# js/this.js
+# js/sudoku.js
+# js/stickyNote.js
+# js/prototype.js
+# js/note.js
+# js/method.js
+# js/media.js
+# js/fadescroll.js
+# js/drag.js
+# js/chatbot.js
+# js/arrow.js
+# js/ajax.js
+# js/localstorage.js
+# js/setInterval.js
+# js/fetchAPI.js
 
-project/trello/
-project/trelloN/
-project/cheesei/
+# project/trello/
+# project/trelloN/
+# project/cheesei/
 
-project/localStorage/
+# project/localStorage/
 

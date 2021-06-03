@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function checkValidMacAddress(addr) {
+    const regx = /^([0-9A-F]{2}[:-]){5}([0-9A-F]{2})$/;
+    
+    if(regx.test(addr)==true){
+        console.log(addr);
+        alert(addr);
+        return true;
+    }else{
+        console.log(addr);
+        alert("맥주소를 잘못입력하였습니다: " + addr);
+        return false;
+    }
+    }
+    checkValidMacAddress('72:9D:F3:8B:2B:71');  // true
+    checkValidMacAddress('72:9D:F3:8B:2B');  // false
+    checkValidMacAddress('macaddress');  // false
+    </script>
+</body>
+</html>
