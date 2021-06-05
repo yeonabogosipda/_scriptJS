@@ -27,9 +27,9 @@ $ git push --force origin deadbeef:master
 # js/setInterval.js
 # js/fetchAPI.js
 
-# project/trello/
-# project/trelloN/
-# project/cheesei/
+project/trello/
+project/trelloN/
+project/cheesei/
 
-# project/localStorage/
+project/localStorage/
 
